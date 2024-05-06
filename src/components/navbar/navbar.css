@@ -103,6 +103,16 @@
     background-color: var(--color-blog);
     border-radius: 10px;
     display: block;
+  }
 }
 
+
+@media screen and (max-width: 550px) {
+    .gpt3__navbar{
+        padding: 2rem;
+    }
+    .gpt3__navbar-small{
+        top: 60px;
+        right: 40px;
+    }
 }
