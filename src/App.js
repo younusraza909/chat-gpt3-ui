@@ -1,18 +1,19 @@
-import React from 'react'
-import "./App.css"
+import React from "react";
+import "./App.css";
 
-import { Navbar } from "./components"
-import { Header } from "./containers"
+import { Brand, Navbar } from "./components";
+import { Header } from "./containers";
 
 const App = () => {
-    return (
-        <div className='App'>
-            <div className='gradient__bg'>
-                <Navbar />
-                <Header />
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+    </div>
+  );
+};
 
-export default App
+export default App;
