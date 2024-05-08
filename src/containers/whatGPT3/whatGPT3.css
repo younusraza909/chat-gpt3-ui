@@ -61,3 +61,40 @@
     justify-content: space-between;
     flex-direction: row;
 }
+
+@media screen and (max-width: 1150px) {
+    .gpt3__what-heading-container h1{
+        font-size: 28px;
+        line-height: 40px;  
+    }
+
+    .gpt3__what-heading-container span{
+        font-size: 13px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__what-heading-container h1{
+        font-size: 23px;
+        line-height: 30px;  
+    }
+
+    .gpt3__what-heading-container span{
+        font-size: 11px;
+    }
+}
+ 
+@media screen and (max-width: 950px) {
+    .gpt3__what-features-container{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__what-heading-container span{
+        font-size: 10px;
+    }
+}
